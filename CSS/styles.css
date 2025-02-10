@@ -474,6 +474,18 @@ nav {
   text-align: center;
 }
 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .portfolio-section h2 {
+    font-size: 2rem;
+  }
+
+  .portfolio-section p {
+    font-size: 1rem;
+  }
+}
+
 /* Gallery Section */
 .gallery {
   padding: 3rem 2rem;
