@@ -498,3 +498,49 @@ nav {
 .gallery-item:hover {
   transform: scale(1.03);
 }
+
+
+/* Contact Section */
+.contact {
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: #333;
+}
