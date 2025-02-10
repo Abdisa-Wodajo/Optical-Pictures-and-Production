@@ -110,7 +110,6 @@ nav {
   }
 }
 
-
 /* General Styles */
 
 .hero-section {
@@ -214,7 +213,6 @@ nav {
   z-index: 1;
 }
 
-
 /* About Section */
 
 .about-section {
@@ -294,7 +292,7 @@ nav {
   .about-content {
     flex: 1 1 100%;
   }
-  
+
   .about-content {
     padding: 20px;
     text-align: center;
@@ -357,32 +355,6 @@ nav {
   font-size: 1rem;
   color: #666;
 }
-
-/* Gallery Section */
-.gallery {
-  padding: 3rem 2rem;
-  text-align: center;
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-}
-
-.gallery-item {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover {
-  transform: scale(1.03);
-}
-
 
 /* Portfolio section */
 
@@ -471,3 +443,27 @@ nav {
   text-align: center;
 }
 
+/* Gallery Section */
+.gallery {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
