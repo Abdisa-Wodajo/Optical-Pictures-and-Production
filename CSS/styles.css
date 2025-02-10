@@ -44,9 +44,10 @@ nav {
   background: #34495e;
   border-radius: 2px;
 }
-#login {
+.login {
   border: 2px solid tomato;
   margin-left: 40px;
+  border-radius: 20px;
 }
 
 .hamburger {
@@ -109,7 +110,6 @@ nav {
     transform: translateY(-9px) rotate(-45deg);
   }
 }
-
 
 /* General Styles */
 
@@ -214,7 +214,6 @@ nav {
   z-index: 1;
 }
 
-
 /* About Section */
 
 .about-section {
@@ -294,7 +293,7 @@ nav {
   .about-content {
     flex: 1 1 100%;
   }
-  
+
   .about-content {
     padding: 20px;
     text-align: center;
@@ -378,7 +377,6 @@ nav {
     opacity: 1;
   }
 }
-
 /* Portfolio section */
 
 .portfolio-section {
@@ -391,7 +389,6 @@ nav {
   text-align: center;
   font-weight: bold;
   padding-top: 50px;
-
 }
 
 /* Fade-in Animation */
@@ -404,3 +401,100 @@ nav {
   }
 }
 
+.portfolio-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.portfolio-section p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  opacity: 0.8;
+}
+
+.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+.portfolio-item .overlay h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-item .overlay p {
+  color: #ddd;
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
