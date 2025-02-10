@@ -44,9 +44,10 @@ nav {
   background: #34495e;
   border-radius: 2px;
 }
-#login {
+.login {
   border: 2px solid tomato;
   margin-left: 40px;
+  border-radius: 20px;
 }
 
 .hamburger {
