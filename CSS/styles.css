@@ -357,7 +357,7 @@ nav {
   font-size: 1rem;
   color: #666;
 }
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .services-section {
     flex-direction: column;
@@ -367,6 +367,31 @@ nav {
   .service {
     max-width: 90%;
   }
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Portfolio section */
+
+.portfolio-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 20px 20px;
+  text-align: center;
+}
+.portfolio-text {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+
 }
 
 /* Fade-in Animation */
