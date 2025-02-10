@@ -357,6 +357,26 @@ nav {
   color: #666;
 }
 
+@media (max-width: 768px) {
+  .services-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    max-width: 90%;
+  }
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* Portfolio section */
 
 .portfolio-section {
@@ -369,6 +389,16 @@ nav {
   text-align: center;
   font-weight: bold;
   padding-top: 50px;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .portfolio-section h2 {
