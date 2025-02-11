@@ -636,3 +636,13 @@ a:hover {
   font-size: 16px;
   padding: 7px;
 }
+@media(max-width:700px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-content p{
+    text-align: center;
+  }
+}
