@@ -86,7 +86,7 @@ button:hover {
   display: none;
 }
 #game-button{
-  border: #ff4a3d;
+  border: goldenrod;
   background-color: goldenrod;
   color: white;
   padding: 10px;
@@ -96,6 +96,6 @@ button:hover {
   text-decoration: none;
 }
 #game-button:hover{
-  background-color: dodgerblue;
+  background-color: darkgreen;
  
 }
