@@ -7,5 +7,30 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="javascript/game.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="game-container">
+      <h1>Guess the Number!</h1>
+      <p>I'm thinking of a number between 1 and 100...</p>
+      <p>Can you guess it in 10 tries or fewer?</p>
+
+      <input type="number" id="guessInput" placeholder="Enter your guess" />
+      <br />
+      <button onclick="checkGuess()">Submit Guess</button>
+
+      <div class="message" id="message"></div>
+      <div class="attempts">
+        <p>Remaining attempts: <span id="attempts">10</span></p>
+        <p>Previous guesses: <span id="previousGuesses"></span></p>
+      </div>
+
+      <button
+        class="restart"
+        onclick="restartGame()"
+        style="display: none"
+        id="restartButton"
+      >
+        Play Again
+      </button>
+    </div>
+  </body>
 </html>
