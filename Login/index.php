@@ -31,7 +31,10 @@
           <p class="toggle-text">
             Don't have an account? <a href="signup.php" id="showSignup">Sign Up</a>
           </p>
-          
+          <br>
+          <br>
+
+          <a href="../Game/Game.html" id="game-button">Enjoy the Game</a>
         </div> 
       </div>
    </div>

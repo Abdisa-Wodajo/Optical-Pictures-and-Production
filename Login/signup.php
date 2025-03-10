@@ -54,6 +54,10 @@
           <p class="toggle-text">
             Already have an account? <a href="index.php" id="showLogin">Login</a>
           </p> 
+          <br>
+          <br>
+
+    <a href="../Game/Game.html" id="game-button">Enjoy the Game</a>
 
       </div>
       </div>
