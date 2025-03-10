@@ -1,0 +1,117 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../image/background4.jpg") no-repeat center center/cover;
+  color: #fff;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.form-container {
+  position: relative;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.form p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  width: 70%;
+}
+
+button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  background: dodgerblue;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #ff4a3d;
+}
+
+.toggle-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.toggle-text a {
+  color: #ff6f61;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.toggle-text a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+#game-button {
+  border: #ff4a3d;
+  background-color: goldenrod;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#game-button:hover {
+  background-color: dodgerblue;
+}
+.error {
+  background-color: #ffdddd;
+  color: #d8000c;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.success {
+  background-color: #ddffdd;
+  color: #4f8a10;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
