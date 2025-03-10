@@ -12,7 +12,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 </head>
 <body>
      <h1>Well Come!, <?php echo $_SESSION['name']; ?></h1>
-     <a href="index.php">Logout</a>
+     <br>
+     <a href="index.php" style="background-color: darkcyan; color:white">Logout</a>
 </body>
 </html>
 
